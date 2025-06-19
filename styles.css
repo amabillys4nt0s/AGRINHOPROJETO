@@ -1,0 +1,110 @@
+/* Reset básico e configurações do corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f2ed; /* Um tom de creme claro, lembrando papel antigo ou terra seca */
+    color: #333;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1518979511242-62c84c8a4a35?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto 0;
+}
+
+/* Estilos do Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.secao-festas h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #8c5a3c; /* Um tom de marrom terroso */
+    border-bottom: 2px solid #c7a188;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos dos Artigos de Festa */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #b3541e; /* Um tom de laranja queimado */
+    margin-top: 0;
+}
+
+/* Divisor horizontal */
+.divisor {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(140, 90, 60, 0.75), rgba(0, 0, 0, 0));
+    margin: 3rem 0;
+}
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #3a3a3a;
+    color: #f4f2ed;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    .secao-festas h2 {
+        font-size: 1.8rem;
+    }
+}
