@@ -3,7 +3,7 @@ Site: Festejando a Conexão Campo-Cidade
 Este é um projeto de site simples criado para celebrar as tradições e festas que conectam o ambiente rural e o urbano. A página destaca como as festividades de ambos os universos se complementam e refletem a cultura brasileira.
 
 Autor
-Thiago Antunes Haagsma
+AMABILLY VITÓRIA DOS SANTOS
 
 Estrutura dos Arquivos
 O projeto é composto por dois arquivos principais:
